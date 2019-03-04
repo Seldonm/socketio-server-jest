@@ -1,0 +1,23 @@
+{
+  "name": "socketio.jest.examples",
+  "version": "1.0.0",
+  "description": "Socket.io server examples with Jest",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Mauro Losciale",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^2.2.0",
+    "socket.io-client": "^2.2.0",
+    "socket.io-redis": "^5.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.1.0",
+    "jest": "^24.1.0"
+  }
+}
